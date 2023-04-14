@@ -1,0 +1,184 @@
+
+Algoritmos
+Sequência de passo, conjunto de regras
+
+Lógica de programção
+Maneira de pensar
+ 
+Sintaxe
+Maneira correta de escrever
+
+
+
+- Javascript
+
+
+Linguagem de programação
+Interpretada e executada pelos navegadores
+
+A inteligência da tríade 
+HTML é a estrutura, CSS é a beleza JS é a inteligência
+
+Não é JAVA
+Apesar do nome ser semelhante, são liguagens diferesntes
+
+
+
+
+-- Instruções e sintaxe -- 
+
+
+Toda linguagem é escrita com esses 2 princípios 
+
+
+- Instruções (Declarações)
+Ordens ao computador 
+
+- Sintaxe
+Meneira correta de escrever 
+
+  
+
+ exemplos>
+	
+	alert("Fala, Dev!") // Fala, Dev!
+
+	alert((10 * 100) + " abraçõs")
+
+
+Existem "palavras reservadas" da liguagem. 
+Elas são responsávveis em dar significado a diversas instruções.
+
+
+
+
+Variáveis 
+
+Uma caixinha onde guardamos um tipo de dado para usar mais tarde. 
+
+
+Tipo de dados
+
+Informações que podem ser em textos, numeros, booleanos ( valores lógicos: verdadeiro ou falso) ou dados mais estruturados. 
+
+
+
+
+
+Variáveis e Tipo de dados 
+
+
+//declaro e atribuo valor 
+
+
+let boasVindas = "Fala, Dev!";
+boasVindas = "Fala, Dev! Beleza?!"
+
+
+
+// constate não pode mudar o valor 
+
+
+const serHumano = true; 
+serHumano = false; // Error!
+
+
+// String 
+
+""
+''
+´´
+
+// Number
+
+1
+1.2
+
+//boolean
+
+true 
+false
+
+
+= ( Significa atribuição de valor ) 
+
+
+
+
+
+!Funções
+
+> Agrupamendo de código 
+> Reuso de código 
+> Mini programas dentro do programa maior
+> Toda linguagem oferece muitas opções
+
+
+// usando uma função
+
+alert ('Fala, Dev!')
+
+// Criando uma função 
+
+	function alert(text) {
+		return text
+	}
+
+
+
+
+
+
+
+!Objetos
+
+
+ Atributos
+	São as propriedades de um objeto
+
+ Métodos
+	São as funcionalidades de uma objeto
+
+
+// criando um objeto
+
+	const persson = {
+		age: 18;
+		drive: function(){
+}
+
+// usando um objeto
+
+	person.drive()
+
+
+
+const celular = {
+    cor: preto, 
+    ligar: function() {
+	alart("ligando")
+	}
+}
+
+
+
+
+
+
+// código javascript para troca de imagem
+
+// pegar a tag img 
+	const img = document.querySelector("#profile img")
+//subistituir a imagem 
+	if(html.classList.contains('')){
+// se tiver light mode, adicionar a imagem light
+	img.setAttribute('src', './assets/avatar-light.png')
+} else {
+	img.setAttribute('src', './assets/avatar.png')
+}
+
+
+
+
+
+
